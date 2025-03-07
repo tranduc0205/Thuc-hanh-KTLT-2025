@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="b&#224;i 1e, vi&#7871;t &#273;&#7913;c"/>
+        <attribute name="authors" value="HP"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-07 08:27:51 AM"/>
+        <attribute name="created" value="SFA7REVTS1RPUC1DQU5OM1JROzIwMjUtMDMtMDc7MDc6MzE6MDAgQU07MjQ5Ng=="/>
+        <attribute name="edited" value="SFA7REVTS1RPUC1DQU5OM1JROzIwMjUtMDMtMDc7MDg6Mjc6NTEgQU07MTsyNjE2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, i" type="Real" array="False" size=""/>
+            <output expression="&quot;M&#7901;i b&#7841;n nh&#7853;p n: &quot;" newline="True"/>
+            <input variable="n"/>
+            <if expression="n&gt;1">
+                <then>
+                    <if expression="n&lt;4">
+                        <then>
+                            <output expression="&quot; s&#7889; b&#7841;n nh&#7853;p l&#224; snt&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <for variable="i" start="2" end="n-1" direction="inc" step="1"/>
+                            <if expression="n%i==0">
+                                <then>
+                                    <output expression="&quot; s&#7889; b&#7841;n nh&#7853;p ko ph&#7843;i snt&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;s&#7889; b&#7841;n nh&#226;p l&#224; snt&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;s&#7889; b&#7841;n nh&#7853;p ko ph&#7843;i snt&quot;" newline="True"/>
+                </else>
+            </if>
+            <output expression="&quot; tr&#7847;n nguy&#7877;n vi&#7871;t &#273;&#7913;c&quot;" newline="True"/>
+            <output expression="&quot;mssv: 23575205020710013&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
