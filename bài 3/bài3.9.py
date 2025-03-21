@@ -25,6 +25,6 @@ elif choice == "3":
 elif choice == "4":
     print(num1,"/",num2,"=",divide(num1,num2))
 else:
-    print("Invalid input")
+    print("Đàu vào không hợp lệ")
 print("sv:tran nguyen viet duc")
 print("235752020710013")
