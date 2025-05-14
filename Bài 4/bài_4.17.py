@@ -1,4 +1,3 @@
-
 import math
 
 def tong_uoc_so_khong_ke_chinh_no(so):
@@ -18,7 +17,9 @@ def la_so_du_thua(so):
 # Nhập n từ người dùng
 n = int(input("Nhập số nguyên dương n: "))
 
-print(f"Tổng các ước lớn hơn chính số đó {n} là:")
+print(f"Các số nhỏ hơn {n} là số dư thừa:")
 for so in range(2, n):  # bắt đầu từ 2 vì 1 không có ước số nhỏ hơn nó
     if la_so_du_thua(so):
         print(so, end=' ')
+print("trần nguyễn viết đức")
+print("mssv:23575205020710013")
