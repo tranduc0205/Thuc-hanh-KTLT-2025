@@ -21,6 +21,8 @@ print("Danh sách sau khi sắp xếp:", lst_sorted)
 # Tìm phần tử lớn nhất và nhỏ nhất
 max_val = mymodule.tim_lon_nhat(lst)
 min_val = mymodule.tim_nho_nhat(lst)
+print("trần nguyễn viết đức")
+print("mssv:23575205020710013")
 
 print("Phần tử lớn nhất:", max_val)
 print("Phần tử nhỏ nhất:", min_val)
