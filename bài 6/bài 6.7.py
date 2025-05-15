@@ -1,19 +1,23 @@
-print("sv: trần nguyễn viết đức.")
-print ("mssv:235752020710013")
-
-####
 import math
 
 class Circle:
-    def __init__(self, radius):
-        self.radius = radius
+    def __init__(self, ban_kinh):
+        """Khởi tạo hình tròn với bán kính."""
+        self.ban_kinh = ban_kinh
 
-    def area(self):
-        return math.pi * (self.radius ** 2)
+    def tinh_dien_tich(self):
+        """Tính diện tích của hình tròn."""
+        return math.pi * (self.ban_kinh ** 2)
 
-    def circumference(self):
-        return 2 * math.pi * self.radius
+    def tinh_chu_vi(self):
+        """Tính chu vi của hình tròn."""
+        return 2 * math.pi * self.ban_kinh
 
-circle = Circle(5)  # Thay 5 bằng bán kính mong muốn
-print("Diện tích:", circle.area())
-print("Chu vi:", circle.circumference())
+# Ví dụ sử dụng
+ban_kinh = float(input("Nhập bán kính của hình tròn: "))
+hinh_tron = Circle(ban_kinh)
+
+print(f"Diện tích của hình tròn: {hinh_tron.tinh_dien_tich()}")
+print(f"Chu vi của hình tròn: {hinh_tron.tinh_chu_vi()}")
+print("trần nguyễn viết đức")
+print("mssv:23575205020710013")
