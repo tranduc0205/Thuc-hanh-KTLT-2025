@@ -1,5 +1,8 @@
 print("sv: trần nguyễn viết đức.")
 print ("mssv:235752020710013")
+print("sv: trần nguyễn viết đức.")
+print("mssv: 235752020710013")
+
 def dem_so_dong_trong_tep(tentep):
     try:
         # Mở tệp để đọc (chế độ 'r'), sử dụng mã hóa 'utf-8'
@@ -16,8 +19,10 @@ def dem_so_dong_trong_tep(tentep):
         print(f"Lỗi mã hóa, không thể đọc tệp '{tentep}'.")
         return None
 
+# Đường dẫn đến tệp test.txt
+ten_tep = 'C:/lt 2025/bài 7/test.txt'  # Sử dụng đường dẫn tuyệt đối
+
 # Gọi hàm và hiển thị kết quả
-ten_tep = 'bài 7/test.txt'  # Thay 'test.txt' bằng tên tệp bạn muốn đếm dòng
 so_dong = dem_so_dong_trong_tep(ten_tep)
 
 if so_dong is not None:
